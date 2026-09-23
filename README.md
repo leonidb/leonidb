@@ -6,6 +6,13 @@ use, and how to keep the human in control without drowning in agent output.
 
 #### Currently building
 
+**[Jean](https://github.com/leonidb/jean)** — runs a group of Claude Code
+agents on one project, with one of them in charge. You talk to the sensei; it
+turns what you ask for into tasks, hands them to workers, and keeps the
+record. Everything runs on your machine and is event-sourced: every task,
+message and report lands in one append-only log, and what the agents learn
+builds up in a wiki they all read.
+
 **[Audio Recap](https://github.com/leonidb/claude-code-audio-recap)** — a Claude Code
 plugin that speaks a one-sentence recap of every turn, summarized for ears,
 so you can step away from the screen and trust the audio to pull you back
@@ -29,6 +36,6 @@ and distributed systems.
 
 ---
 
-*Open to conversations about agent UX, voice-first interfaces, and developer
-tooling. Bugs and feature requests: repo Issues. Anything else: LinkedIn
+*Open to conversations about multi-agent orchestration, agent UX, voice-first
+interfaces, and developer tooling. Bugs and feature requests: repo Issues. Anything else: LinkedIn
 (linked in the sidebar).*
